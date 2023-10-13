@@ -1,8 +1,0 @@
-{
-  "extends": "@kiwi/eslint-config/svelte",
-  "parser": "babel-eslint",
-  "rules": {
-    "camelcase": 0,
-    "import/first": 0
-  }
-}

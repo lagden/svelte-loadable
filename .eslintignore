@@ -7,8 +7,3 @@ node_modules
 package
 .env*
 vite.config.js.timestamp-*
-
-tests/e2e/__snapshots__/**
-
-coverage/**
-!coverage/lcov.info
