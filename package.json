@@ -1,7 +1,7 @@
 {
   "name": "@tadashi/svelte-loadable",
   "version": "1.0.0",
-  "description": "Svelte lib for TEx projects",
+  "description": "Svelte component",
   "svelte": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
