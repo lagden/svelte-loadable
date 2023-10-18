@@ -4,19 +4,24 @@ bracketSpacing: false
 # embeddedLanguageFormatting: auto
 insertPragma: false
 htmlWhitespaceSensitivity: css
-printWidth: 120
+printWidth: 720
 proseWrap: preserve
 quoteProps: as-needed
 requirePragma: false
 semi: false
-singleAttributePerLine: false
+singleAttributePerLine: true
 singleQuote: true
 trailingComma: all
 tabWidth: 4
 useTabs: true
+
 overrides:
-  - files: './**/*.{svelte}'
+  - files: '*.svelte'
     options:
       parser: svelte
       plugins:
         - prettier-plugin-svelte
+      # svelteSortOrder: options-scripts-markup-styles
+      # svelteStrictMode: false
+      svelteAllowShorthand: true
+      svelteIndentScriptAndStyle: false

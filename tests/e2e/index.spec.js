@@ -18,7 +18,7 @@ test('general', async ({page}) => {
 	// const gone = await page.getByTestId('gone')
 	// await expect(gone).toBeVisible()
 
-	await setTimeout(3000)
+	await setTimeout(5000)
 
 	await page.screenshot({
 		path: './tests/e2e/__snapshots__/index.spec.js.png',

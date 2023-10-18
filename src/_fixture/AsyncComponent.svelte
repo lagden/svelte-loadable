@@ -1,11 +1,11 @@
 <script>
-	import {onMount} from 'svelte'
+import {onMount} from 'svelte'
 
-	export let customProp
+export let customProp = undefined
 
-	onMount(() => {
-		console.log('I\'m the on create method of the async component c:')
-	})
+onMount(() => {
+	console.log('I am the on create method of the async component c:')
+})
 </script>
 
 I'm an async component!
